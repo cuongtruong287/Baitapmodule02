@@ -70,9 +70,10 @@ public class Bt08 {
                     int max = 0, j = 1;
                     for (j = 1; j <= n ; j++) {
                         if (n % j == 0 && j % 2 != 0){
-
+                            max = j;
                         }
                     }
+                    System.out.println(max);
                     break;
                 case 6:
                     System.exit(0);
