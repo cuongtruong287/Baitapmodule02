@@ -27,7 +27,7 @@ public class Th01 {
             studentID = scanner.nextLine();
             Pattern patternID = Pattern.compile("(B)[0-9]{3}");
             Matcher checkID = patternID.matcher(studentID);
-            if (checkID.matches()){
+            if (checkID.matches()) {
                 System.out.println("Ma sinh vien OK");
                 break;
             } else {
@@ -40,7 +40,7 @@ public class Th01 {
             studentName = scanner.nextLine();
             Pattern patternName = Pattern.compile("[a-z A-Z]{10,}");
             Matcher checkName = patternName.matcher(studentName);
-            if (checkName.matches()){
+            if (checkName.matches()) {
                 System.out.println("Ho va Ten OK");
                 break;
             } else {
@@ -53,7 +53,7 @@ public class Th01 {
             studentPhone = scanner.nextLine();
             Pattern patternPhone = Pattern.compile("(0[3|5|7|8|9])+(\\d{8})");
             Matcher checkPhone = patternPhone.matcher(studentPhone);
-            if (checkPhone.matches()){
+            if (checkPhone.matches()) {
                 System.out.println("So dien thoai OK");
                 break;
             } else {
@@ -67,7 +67,7 @@ public class Th01 {
             Pattern patternBirthday;
             patternBirthday = Pattern.compile("^((0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[012])-(19|20)\\d\\d)$");
             Matcher checkBirthday = patternBirthday.matcher(studentBirthday);
-            if (checkBirthday.matches()){
+            if (checkBirthday.matches()) {
                 System.out.println("Ngay thang nam sinh OK");
                 break;
             } else {
