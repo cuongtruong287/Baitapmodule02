@@ -46,12 +46,16 @@ public class Th01 {
                     break;
                 case 3:
                     System.out.println("Ma tran cua ban la:");
-                    for (int i = 0; i < matrix.length; i++) {
+                {
+                    int i = 0;
+                    while (i < matrix.length) {
                         for (int j = 0; j < matrix[i].length; j++) {
                             System.out.printf("%d\t", matrix[i][j]);
                         }
                         System.out.println("\n");
+                        i++;
                     }
+                }
                     break;
 
                 case 4:
