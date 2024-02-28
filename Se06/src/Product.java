@@ -9,8 +9,6 @@ public class Product {
     public Product() {
     }
 
-    ;
-
     public Product(String productID, String productName, float productPrice, float productCost) {
         this.productID = productID;
         this.productName = productName;
