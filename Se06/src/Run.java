@@ -9,6 +9,7 @@ public class Run {
             System.out.println("1. Nhập vào ma sản phâm");
             System.out.println("2. Hiển thị thông tin ");
             System.out.println("3. Hiển thị lãi xuất");
+            System.out.println("4. Thoat.");
             System.out.println("Moi ban nhap yeu cau:");
             int choice = scanner.nextInt();
             switch (choice){
