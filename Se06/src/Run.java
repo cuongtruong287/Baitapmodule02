@@ -26,7 +26,7 @@ public class Run {
                 case 4:
                     System.exit(0);
 
-                case 5:
+                default:
                     System.err.println("Nhap sai, vui long nhap lai!");
                     break;
             }
