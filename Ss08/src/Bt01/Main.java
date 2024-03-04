@@ -24,6 +24,12 @@ public class Main {
                     System.out.println("Dien tich hinh tron la " + circle.getArea());
                     System.out.println("Mau hien thi la: " + circle.display());
                     break;
+                case 3:
+                    System.exit(0);
+
+                default:
+                    System.err.println("Nhap sai, vui long nhap lai!");
+                    break;
             }
         } while (true);
 
